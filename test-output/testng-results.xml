@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22" started-at="2016-04-22T06:28:49Z" finished-at="2016-04-22T06:28:49Z">
+    <groups>
+      <group name="p0">
+        <method signature="testExamlpe.HealthCheck()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="HealthCheck" class="com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe"/>
+        <method signature="testExamlpe.openbaidu()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="openbaidu" class="com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe"/>
+      </group> <!-- p0 -->
+    </groups>
+    <test name="Default test" duration-ms="22" started-at="2016-04-22T06:28:49Z" finished-at="2016-04-22T06:28:49Z">
+      <class name="com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe">
+        <test-method status="FAIL" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String, java.lang.String)[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'filePath' is required by @Configuration on method beforeSuite but has not been marked @Optional or defined
+in C:\Users\dell\AppData\Local\Temp\testng-eclipse-1036232933\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'filePath' is required by @Configuration on method beforeSuite but has not been marked @Optional or defined
+in C:\Users\dell\AppData\Local\Temp\testng-eclipse-1036232933\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:165)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:372)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:90)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:296)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="SKIP" signature="BeforeClass()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="SKIP" signature="HealthCheck()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="HealthCheck" duration-ms="3" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthCheck -->
+        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+	The method backToHomePage(String[]) in the type AppOperate is not applicable for the arguments ()
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The method backToHomePage(String[]) in the type AppOperate is not applicable for the arguments ()
+
+	at com.xiaoneng.uiautotest.base.AutoTestBase.afterMethod(AutoTestBase.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+	The method backToHomePage(String[]) in the type AppOperate is not applicable for the arguments ()
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The method backToHomePage(String[]) in the type AppOperate is not applicable for the arguments ()
+
+	at com.xiaoneng.uiautotest.base.AutoTestBase.afterMethod(AutoTestBase.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:732)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="openbaidu()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="openbaidu" duration-ms="0" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbaidu -->
+        <test-method status="FAIL" signature="afterSuit()[pri:0, instance:com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe@7a0ac6e3]" name="afterSuit" is-config="true" duration-ms="0" started-at="2016-04-22T14:28:49Z" finished-at="2016-04-22T14:28:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.xiaoneng.uiautotest.base.AutoTestBase.afterSuit(AutoTestBase.java:265)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.xiaoneng.uiautotest.testsuits.testcases.web.testExamlpe -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
