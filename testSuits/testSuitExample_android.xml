@@ -3,15 +3,15 @@
     <!--platformName in  {web ,android ,ios }-->
     <parameter name="platformName" value="Android"/>
     <!--APP PARAM-->
-    <parameter name="appName" value="xxxx.apk"/>
-    <parameter name="filePath" value="/path1/path2/"/>
+    <parameter name="appName" value="XiaonengChatDemo3.apk"/>
+    <parameter name="filePath" value="/apps"/>
     <parameter name="platformVersion" value="5.1"/>
-    <parameter name="deviceName" value=""/>
-    <parameter name="appPackage" value="com.xxxx.xxxx"/>
-    <parameter name="appActivity" value="com.xxxx.xxxx.xxx"/>
+    <parameter name="deviceName" value="Nexus_4"/>
+    <parameter name="appPackage" value="com.example.androidsdk"/>
+    <parameter name="appActivity" value="com.example.androidsdk.MainActivity"/>
     <parameter name="port" value="5743"/>
     <parameter name="timeout" value="30"/>
-    <parameter name="udid" value="udid"/>//adb devices 获取
+    <parameter name="udid" value="emulator-5554"/>//adb devices 获取
 	<!--WEB PARAM-->
     <parameter name = "browser_name" value = "chrome"/>
     <parameter name = "remote_url" value = ""/>
@@ -53,12 +53,12 @@
         </groups>
         <classes>
             <parameter name="example" value="example"/>
-            <class name="com.xxxx.uiautotest.testsuits.testcases.app.Example_Tests"/>
+            <class name="com.xiaoneng.uiautotest.testsuits.testcases.app.Example_Tests"/>
         </classes>
     </test>
 
     <listeners>
-        <listener class-name="com.xxxx.uiautotest.util.testng.TestResultListener"/>
-        <listener class-name="com.xxxx.uiautotest.util.testng.RetryListener"/>
+        <listener class-name="com.xiaoneng.uiautotest.util.testng.TestResultListener"/>
+        <listener class-name="com.xiaoneng.uiautotest.util.testng.RetryListener"/>
     </listeners>
 </suite>
