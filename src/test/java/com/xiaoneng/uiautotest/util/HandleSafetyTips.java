@@ -1,7 +1,9 @@
 package com.xiaoneng.uiautotest.util;
 
+
 /**
- * Created by yuyilong on 15/11/8.
+ * @author dell
+ *	小米安装软件的安全警告
  */
 public class HandleSafetyTips extends Thread {
     private boolean needTap = false;

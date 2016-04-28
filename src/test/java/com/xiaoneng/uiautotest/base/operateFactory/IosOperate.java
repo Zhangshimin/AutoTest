@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 /**
- * Created by yuyilong on 15/9/22.
+ *	ios操作类 
  */
 public class IosOperate extends AppOperate {
 

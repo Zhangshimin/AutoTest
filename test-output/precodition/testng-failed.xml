@@ -2,37 +2,37 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [precodition]">
   <parameter name="appPackage" value="com.example.androidsdk"/>
-  <parameter name="remote_url" value=""/>
+  <parameter name="remote_url" value="www.baidu.com"/>
+  <parameter name="test" value="test"/>
   <parameter name="appName" value="XiaonengChatDemo3.apk"/>
-  <parameter name="filePath" value="/apps"/>
-  <parameter name="deviceName" value="Nexus_4"/>
+  <parameter name="filePath" value="apps"/>
+  <parameter name="deviceName" value=""/>
   <parameter name="timeout" value="30"/>
-  <parameter name="example" value="example"/>
   <parameter name="appActivity" value="com.example.androidsdk.MainActivity"/>
   <parameter name="browser_name" value="chrome"/>
   <parameter name="port" value="5743"/>
-  <parameter name="platformVersion" value="5.1"/>
+  <parameter name="platformVersion" value="4.4.2"/>
   <parameter name="platformName" value="Android"/>
-  <parameter name="udid" value="emulator-5554"/>
+  <parameter name="udid" value="9TGA6TGIBEPJRS4T"/>
   <listeners>
     <listener class-name="com.xiaoneng.uiautotest.util.testng.TestResultListener"/>
     <listener class-name="com.xiaoneng.uiautotest.util.testng.RetryListener"/>
   </listeners>
   <test name="APP_Tests(failed)">
-    <parameter name="example" value="example"/>
+    <parameter name="test" value="test"/>
     <groups>
       <run>
         <include name="p0"/>
-        <include name="p1"/>
-        <include name="p2"/>
       </run>
     </groups>
     <classes>
       <class name="com.xiaoneng.uiautotest.testsuits.testcases.app.Example_Tests">
         <methods>
-          <include name="example"/>
+          <include name="exampleWeb" invocation-numbers="0"/>
+          <include name="afterMethod"/>
           <include name="afterSuit"/>
           <include name="beforeSuite"/>
+          <include name="beforeClass"/>
         </methods>
       </class> <!-- com.xiaoneng.uiautotest.testsuits.testcases.app.Example_Tests -->
     </classes>

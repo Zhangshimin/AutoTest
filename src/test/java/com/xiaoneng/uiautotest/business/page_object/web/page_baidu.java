@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 /**
- * Created by yuyilong on 15/9/21.
+ * example
  */
 public class page_baidu extends PageObjectBase {
 

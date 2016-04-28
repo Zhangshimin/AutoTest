@@ -8,6 +8,11 @@ import java.io.IOException;
 import java.util.Enumeration;
 import java.util.Properties;
 
+/**
+ * @author dell
+ *	读取config.properties文件
+ *	次数，源代码地址，编码格式
+ */
 public class ConfigReader {
 	private static Logger logger = Logger.getLogger(ConfigReader.class);
 	private static ConfigReader cr;
@@ -15,6 +20,9 @@ public class ConfigReader {
 	private String sourceCodeDir = "src/test";
 	private String sourceCodeEncoding = "UTF-8";
 
+	/**
+	 * 配置最大重试次数
+	 */
 	private static final String RETRYCOUNT = "retrycount";
 	private static final String SOURCEDIR = "sourcecodedir";
 	private static final String SOURCEENCODING = "sourcecodeencoding";
@@ -31,6 +39,10 @@ public class ConfigReader {
 		return cr;
 	}
 
+	/**
+	 * @param fileName
+	 * 解析.properties文件
+	 */
 	private void readConfig(String fileName) {
 		Properties properties = getConfig(fileName);
 		if (properties != null) {

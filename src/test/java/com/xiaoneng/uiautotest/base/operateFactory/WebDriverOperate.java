@@ -5,7 +5,7 @@ import org.openqa.selenium.*;
 import java.util.List;
 
 /**
- * Created by yuyilong on 15/9/24.
+ * 
  */
 public class WebDriverOperate {
 

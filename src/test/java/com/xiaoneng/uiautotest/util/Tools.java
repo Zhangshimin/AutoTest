@@ -2,9 +2,11 @@ package com.xiaoneng.uiautotest.util;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.jetty.html.List;
 
 import java.io.*;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -12,8 +14,10 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 /**
- * Created by yuyilong on 15/8/27.
+ * @author dell
+ *
  */
 public class Tools {
     private static String[] OperatorCode = {"134", "135", "136", "137", "138", "139", "150", "151", "152", "157", "158", "159", "130", "131", "132", "155", "156", "185", "186", "133", "153", "180", "189"};
@@ -30,7 +34,6 @@ public class Tools {
      * @param find   被查找的字符串
      * @param target 目标字符串数组
      * @return 是否查找到字符串
-     * @author quqing
      */
     public static boolean isMatch(String find, String[] target) {
         for (String str : target) {
@@ -78,7 +81,7 @@ public class Tools {
      * @author quqing
      */
     public static String findSubString(String find) {
-        return findSubString(find, "HTTP Status [456][06][0-9]");
+        return findSubString(find, "HTTP Status [456][0-6][0-9]");
     }
 
     /**
@@ -150,8 +153,21 @@ public class Tools {
             Logger logger = Logger.getLogger("appium_log");
             PropertyConfigurator.configure(new File(filePath).getAbsolutePath());
 //			String[] command = { "/bin/sh", "-c", cmd };
-            String[] command = {"sh", "-c", cmd};
-            Process p = Runtime.getRuntime().exec(command);
+//            String[] command = {"sh", "-c", cmd};
+            ArrayList <String> command = new ArrayList<String>();
+            if (isWindows()) {
+            	command.add("cmd");
+            	command.add("/c");
+            	command.add(cmd);
+//            	command = {,,cmd};
+            } else {
+            	command.add("sh");
+            	command.add("-c");
+            	command.add(cmd);
+//            	command = {"sh", "c", cmd};
+            }
+             String[] command2 = (String[]) command.toArray(new String[1]);
+            Process p = Runtime.getRuntime().exec(command2);
             br = new BufferedReader(new InputStreamReader(p.getInputStream()));
             String line = null;
             while ((line = br.readLine()) != null) {

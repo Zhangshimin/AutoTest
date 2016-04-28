@@ -1,0 +1,528 @@
+2016-04-27 15:30:27 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-04-27 15:30:55 dev_log : [INFO] example Start
+2016-04-27 15:30:55 dev_log : [INFO] example Skipped
+2016-04-27 15:30:55 dev_log : [INFO] example takeScreenshot Failure:
+2016-04-27 15:30:55 dev_log : [INFO] exampleWeb Start
+2016-04-27 15:30:55 dev_log : [INFO] exampleWeb Skipped
+2016-04-27 15:30:55 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 15:30:55 dev_log : [INFO] skipTest : exampleWeb
+2016-04-27 15:30:55 dev_log : [INFO] skipTest : example
+2016-04-27 15:39:15 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-04-27 15:39:43 dev_log : [INFO] example Start
+2016-04-27 15:39:43 dev_log : [INFO] example Skipped
+2016-04-27 15:39:43 dev_log : [INFO] example takeScreenshot Failure:
+2016-04-27 15:39:43 dev_log : [INFO] exampleWeb Start
+2016-04-27 15:39:43 dev_log : [INFO] exampleWeb Skipped
+2016-04-27 15:39:43 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 15:39:43 dev_log : [INFO] skipTest : exampleWeb
+2016-04-27 15:39:43 dev_log : [INFO] skipTest : example
+2016-04-27 15:49:59 dev_log : [INFO] example Start
+2016-04-27 15:49:59 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 15:49:59 dev_log : [STEP] [点击sdk原生入口] 
+2016-04-27 15:50:00 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-04-27 15:50:02 dev_log : [INFO] example Success
+2016-04-27 15:50:02 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:50:02 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:50:08 dev_log : [INFO] 点击返回按钮
+2016-04-27 15:50:08 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 15:50:08 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 15:50:08 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:50:08 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:50:11 dev_log : [INFO] exampleWeb Start
+2016-04-27 15:50:11 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 15:50:11 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 15:50:11 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 15:50:12 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 15:50:13 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 15:50:17 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 15:50:17 dev_log : [INFO] exampleWeb Failure
+2016-04-27 15:50:17 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 15:50:17 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:50:17 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:50:20 dev_log : [INFO] PassedTests : example
+2016-04-27 15:50:20 dev_log : [INFO] FailedTest : exampleWeb
+2016-04-27 15:54:12 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-04-27 15:54:40 dev_log : [INFO] example Start
+2016-04-27 15:54:40 dev_log : [INFO] example Skipped
+2016-04-27 15:54:40 dev_log : [INFO] example takeScreenshot Failure:
+2016-04-27 15:54:40 dev_log : [INFO] exampleWeb Start
+2016-04-27 15:54:40 dev_log : [INFO] exampleWeb Skipped
+2016-04-27 15:54:40 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 15:54:40 dev_log : [INFO] skipTest : exampleWeb
+2016-04-27 15:54:40 dev_log : [INFO] skipTest : example
+2016-04-27 15:55:51 dev_log : [INFO] example Start
+2016-04-27 15:55:51 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 15:55:51 dev_log : [STEP] [点击sdk原生入口] 
+2016-04-27 15:55:52 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-04-27 15:55:54 dev_log : [INFO] example Success
+2016-04-27 15:55:54 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:55:54 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:56:00 dev_log : [INFO] 点击返回按钮
+2016-04-27 15:56:00 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 15:56:00 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 15:56:00 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:56:00 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:56:03 dev_log : [INFO] exampleWeb Start
+2016-04-27 15:56:03 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 15:56:03 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 15:56:03 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 15:56:04 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 15:56:05 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 15:56:09 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 15:56:09 dev_log : [INFO] exampleWeb Failure
+2016-04-27 15:56:09 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 15:56:09 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:56:09 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 15:56:12 dev_log : [INFO] PassedTests : example
+2016-04-27 15:56:12 dev_log : [INFO] FailedTest : exampleWeb
+2016-04-27 16:22:44 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-04-27 16:23:12 dev_log : [INFO] example Start
+2016-04-27 16:23:12 dev_log : [INFO] example Skipped
+2016-04-27 16:23:12 dev_log : [INFO] example takeScreenshot Failure:
+2016-04-27 16:23:12 dev_log : [INFO] exampleWeb Start
+2016-04-27 16:23:12 dev_log : [INFO] exampleWeb Skipped
+2016-04-27 16:23:12 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 16:23:12 dev_log : [INFO] skipTest : exampleWeb
+2016-04-27 16:23:12 dev_log : [INFO] skipTest : example
+2016-04-27 16:30:02 dev_log : [INFO] example Start
+2016-04-27 16:30:02 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 16:30:02 dev_log : [STEP] [点击sdk原生入口] 
+2016-04-27 16:30:03 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-04-27 16:30:05 dev_log : [INFO] example Success
+2016-04-27 16:30:05 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:05 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:11 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:30:11 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:30:11 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:30:11 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:11 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:14 dev_log : [INFO] exampleWeb Start
+2016-04-27 16:30:14 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 16:30:14 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 16:30:14 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 16:30:15 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 16:30:16 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 16:30:18 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 16:30:24 dev_log : [INFO] exampleWeb Failure
+2016-04-27 16:30:24 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 16:30:24 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:24 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:30 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:30:30 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:30:30 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:30:30 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:30 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:36 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:30:36 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:30:36 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:30:36 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:36 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:42 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:30:42 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:30:42 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:30:42 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:42 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:48 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:30:48 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:30:48 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:30:48 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:48 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:54 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:30:54 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:30:54 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:30:54 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:30:54 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:00 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:31:00 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:31:00 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:31:00 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:00 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:07 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:31:07 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:31:07 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:31:07 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:07 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:13 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:31:13 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:31:13 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:31:13 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:13 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:19 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:31:19 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:31:19 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:31:19 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:19 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:25 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:31:25 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:31:25 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:31:25 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:31:25 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:06 dev_log : [INFO] example Start
+2016-04-27 16:34:06 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 16:34:06 dev_log : [STEP] [点击sdk原生入口] 
+2016-04-27 16:34:07 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-04-27 16:34:09 dev_log : [INFO] example Success
+2016-04-27 16:34:09 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:09 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:15 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:34:15 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:34:15 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:34:15 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:15 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:18 dev_log : [INFO] exampleWeb Start
+2016-04-27 16:34:18 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 16:34:18 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 16:34:18 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 16:34:19 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 16:34:20 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 16:34:22 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 16:34:28 dev_log : [INFO] exampleWeb Failure
+2016-04-27 16:34:28 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 16:34:28 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:28 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:34 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:34:34 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:34:34 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:34:34 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:34 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:40 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:34:40 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:34:40 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:34:40 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:40 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:47 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:34:47 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:34:47 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:34:47 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:47 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:53 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:34:53 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:34:53 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:34:53 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:53 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:59 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:34:59 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:34:59 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:34:59 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:34:59 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:05 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:05 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:05 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:05 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:05 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:11 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:11 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:11 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:11 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:11 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:17 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:17 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:17 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:17 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:17 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:23 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:23 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:23 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:23 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:23 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:29 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:29 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:29 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:29 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:29 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:35 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:35 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:35 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:35 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:35 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:41 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:41 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:41 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:41 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:41 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:47 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:47 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:47 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:47 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:47 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:53 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:53 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:53 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:35:53 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:53 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:35:59 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:35:59 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:35:59 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:00 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:00 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:06 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:06 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:06 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:06 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:06 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:12 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:12 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:12 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:12 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:12 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:18 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:18 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:18 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:18 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:18 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:24 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:24 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:24 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:24 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:24 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:30 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:30 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:30 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:30 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:30 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:36 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:36 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:36 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:36 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:36 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:42 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:42 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:42 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:42 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:42 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:48 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:48 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:48 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:48 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:48 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:54 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:36:54 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:36:54 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:36:54 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:36:54 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:00 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:37:00 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:37:00 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:37:00 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:00 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:06 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:37:06 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:37:06 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:37:06 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:06 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:12 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:37:12 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:37:12 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:37:13 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:13 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:19 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:37:19 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:37:19 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:37:19 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:19 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:25 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:37:25 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:37:25 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:37:25 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:25 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:31 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:37:31 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:37:31 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:37:31 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:31 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:37:37 dev_log : [INFO] 尝试多次未能返回到首页,终止操作!
+2016-04-27 16:37:37 dev_log : [INFO] PassedTests : example
+2016-04-27 16:37:37 dev_log : [INFO] FailedTest : exampleWeb
+2016-04-27 16:40:04 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-04-27 16:40:32 dev_log : [INFO] example Start
+2016-04-27 16:40:32 dev_log : [INFO] example Skipped
+2016-04-27 16:40:32 dev_log : [INFO] example takeScreenshot Failure:
+2016-04-27 16:40:32 dev_log : [INFO] exampleWeb Start
+2016-04-27 16:40:32 dev_log : [INFO] exampleWeb Skipped
+2016-04-27 16:40:32 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 16:40:32 dev_log : [INFO] skipTest : exampleWeb
+2016-04-27 16:40:32 dev_log : [INFO] skipTest : example
+2016-04-27 16:59:07 dev_log : [INFO] example Start
+2016-04-27 16:59:07 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 16:59:07 dev_log : [STEP] [点击sdk原生入口] 
+2016-04-27 16:59:08 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-04-27 16:59:10 dev_log : [INFO] example Success
+2016-04-27 16:59:10 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:10 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:22 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:59:22 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:59:22 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:59:22 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:22 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:25 dev_log : [INFO] exampleWeb Start
+2016-04-27 16:59:25 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 16:59:25 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 16:59:25 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 16:59:26 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 16:59:27 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 16:59:29 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 16:59:35 dev_log : [INFO] exampleWeb Failure
+2016-04-27 16:59:35 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 16:59:35 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:35 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:47 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:59:47 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:59:47 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:59:47 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:47 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:59 dev_log : [INFO] 点击返回按钮
+2016-04-27 16:59:59 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 16:59:59 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 16:59:59 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 16:59:59 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 17:00:11 dev_log : [INFO] 点击返回按钮
+2016-04-27 17:00:11 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 17:00:11 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 17:00:11 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 17:00:11 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 17:00:24 dev_log : [INFO] 点击返回按钮
+2016-04-27 17:00:24 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 17:00:24 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 17:00:24 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 17:00:24 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 17:00:36 dev_log : [INFO] PassedTests : example
+2016-04-27 17:00:36 dev_log : [INFO] FailedTest : exampleWeb
+2016-04-27 18:19:39 dev_log : [INFO] exampleWeb Start
+2016-04-27 18:19:39 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 18:19:39 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 18:19:40 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 18:19:40 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 18:19:41 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 18:19:43 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 18:19:49 dev_log : [INFO] exampleWeb Failure
+2016-04-27 18:19:49 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 18:19:49 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:19:49 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:01 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:20:01 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:20:01 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:20:01 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:01 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:13 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:20:13 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:20:13 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:20:14 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:14 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:26 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:20:26 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:20:26 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:20:26 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:26 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:38 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:20:38 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:20:38 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:20:38 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:38 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:50 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:20:50 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:20:50 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:20:50 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:20:50 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:02 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:21:02 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:21:02 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:21:02 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:02 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:14 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:21:14 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:21:14 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:21:14 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:14 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:26 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:21:26 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:21:26 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:21:26 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:26 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:38 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:21:38 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:21:38 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:21:38 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:38 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:51 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:21:51 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:21:51 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:21:51 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:21:51 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:03 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:22:03 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:22:03 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:22:03 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:03 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:15 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:22:15 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:22:15 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:22:15 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:15 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:27 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:22:27 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:22:27 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:22:27 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:27 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:39 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:22:39 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:22:39 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:22:39 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:39 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:51 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:22:51 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:22:51 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:22:51 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:22:51 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:03 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:23:03 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:23:03 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:23:03 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:03 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:15 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:23:15 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:23:15 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:23:15 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:15 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:27 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:23:27 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:23:27 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:23:27 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:27 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:40 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:23:40 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:23:40 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:23:40 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:40 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:52 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:23:52 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:23:52 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:23:52 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:52 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:23:56 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-04-27 18:24:04 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:24:04 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:24:04 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:24:04 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:24:04 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:24:16 dev_log : [INFO] 点击返回按钮
+2016-04-27 18:24:16 dev_log : [STEP] [点击返回按钮] 
+2016-04-27 18:24:16 dev_log : [INFO] [点击返回按钮] 
+2016-04-27 18:24:16 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:24:16 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:24:28 dev_log : [INFO] FailedTest : exampleWeb
+2016-04-27 18:24:29 dev_log : [INFO] exampleWeb Start
+2016-04-27 18:24:29 dev_log : [INFO] exampleWeb Skipped
+2016-04-27 18:24:29 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-04-27 18:24:29 dev_log : [INFO] skipTest : exampleWeb
+2016-04-27 18:25:45 dev_log : [INFO] exampleWeb Start
+2016-04-27 18:25:45 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-04-27 18:25:45 dev_log : [STEP] [点击h5原生入口] 
+2016-04-27 18:25:46 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-04-27 18:25:46 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-04-27 18:25:47 dev_log : [INFO] [点击 -> name: 确认]
+2016-04-27 18:25:49 dev_log : [STEP] [点击打开聊窗] 
+2016-04-27 18:25:49 dev_log : [INFO] [点击 -> id: openchat]
+2016-04-27 18:25:50 dev_log : [INFO] exampleWeb Success
+2016-04-27 18:25:50 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:25:50 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-04-27 18:25:56 dev_log : [INFO] PassedTests : exampleWeb

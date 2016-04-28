@@ -9,8 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 /**
- * Created by yuyilong on 15/6/4.
- */
+ *example
+ * */
 public class Elements_Example extends PageObjectBase {
 
     public Elements_Example(WebDriver driver) {

@@ -7,6 +7,10 @@ import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
+/**
+ * @author dell
+ *	重跑监听
+ */
 public class TestngRetry implements IRetryAnalyzer {
 	private static Logger logger = Logger.getLogger(TestngRetry.class);
 	private int retryCount = 1;

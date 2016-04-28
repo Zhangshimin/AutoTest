@@ -1,8 +1,8 @@
 package com.xiaoneng.uiautotest.util;
 
-/**
- * Created by yuyilong on 15/9/24.
- */
+import java.util.ArrayList;
+
+
 public class StartAppiumServer extends Thread {
     long bPort;
     long chromeport;
@@ -18,7 +18,9 @@ public class StartAppiumServer extends Thread {
         this.port = port;
         this.bPort = Long.parseLong(port) + 2;
         this.chromeport = Long.parseLong(port) + 4792;
-        this.appiumPath = "/usr/local/lib/node_modules/appium/bin/";
+// linux 下配置appiumPath
+        //        this.appiumPath = "/usr/local/lib/node_modules/appium/bin/";
+
     }
 
     /**
@@ -46,13 +48,21 @@ public class StartAppiumServer extends Thread {
 //        Log.logInfo(result);
         //--command-timeout 8400
 
-        String command = "node " + appiumPath + "appium.js -a 127.0.0.1 -p " + port + " -bp " + bPort + " --session-override --chromedriver-port " + chromeport + " -U " + udid;
+//        String command = "node " + appiumPath + "appium.js -a 127.0.0.1 -p " + port + " -bp " + bPort + " --session-override --chromedriver-port " + chromeport + " -U " + udid;
         //启动appium服务
 //        Log.logInfo("start appium >> appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
-//        Tools.cmdInvoke("appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
+         if (Tools.isWindows()) {
+        	 Tools.cmdInvoke("appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
+         } else {
+        	 Log.logInfo("start appium >> appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
+         }
+          
+    	
+    	
+    	
         Log.logInfo("run " + udid + " Appium Server in port " + port + "......");
-        Log.logInfo("start appium >> " + command);
-        Tools.cmdInvoke(command);
+//        Log.logInfo("start appium >> " + command);
+//        Tools.cmdInvoke(command);
 
     }
 }

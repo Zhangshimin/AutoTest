@@ -3,15 +3,13 @@ package com.xiaoneng.uiautotest.util;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Created by yuyilong on 15/8/26.
- */
+
 public class StaticConfig {
     private static final ParseProperties CONFIG = new ParseProperties(
             "src/config.properties");
 
-    public static String IdentifyID_Image = "8888";
-    public static String IdentifyID_Message = "888888";
+//    public static String IdentifyID_Image = "8888";
+//    public static String IdentifyID_Message = "888888";
     public static int retrycount = Integer.parseInt(CONFIG.get("retrycount"));
     public static String miDevices = CONFIG.get("miDevices");
 

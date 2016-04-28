@@ -19,7 +19,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by yuyilong on 15/9/22.
+ * 操作类
  */
 public abstract class AppOperate {
     private static WebDriver driver;
@@ -221,6 +221,7 @@ public abstract class AppOperate {
     public void click(final WebElement element, String LogText) {
         Log.logStep("[" + LogText + "] ");
         Log.logInfo("[点击 " + element.toString().substring(element.toString().indexOf("->")));
+        System.out.println(driver.toString());
         element.click();
     }
 

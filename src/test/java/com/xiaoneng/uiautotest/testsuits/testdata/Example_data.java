@@ -3,7 +3,7 @@ package com.xiaoneng.uiautotest.testsuits.testdata;
 import org.testng.annotations.DataProvider;
 
 /**
- * Created by yuyilong on 15/12/24.
+ * 备用--数据提供
  */
 public class Example_data {
     @DataProvider(name = "Example_data")

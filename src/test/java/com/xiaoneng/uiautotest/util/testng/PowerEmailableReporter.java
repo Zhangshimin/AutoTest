@@ -16,9 +16,16 @@ import java.text.NumberFormat;
 import java.util.*;
 
 
+/**
+ * @author dell
+ *	IReporter 接口，测试结果处理，
+ */
 public class PowerEmailableReporter implements IReporter {
 	private static final Logger L = Logger.getLogger(PowerEmailableReporter.class);
 
+	/**
+	 * 输出
+	 */
 	private PrintWriter m_out;
 
 	private int m_row;
@@ -451,6 +458,10 @@ public class PowerEmailableReporter implements IReporter {
 		m_row = 0;
 	}
 
+	/**
+	 * @param out
+	 * html 标头
+	 */
 	protected void startHtml(PrintWriter out) {
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");

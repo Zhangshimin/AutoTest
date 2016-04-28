@@ -8,7 +8,6 @@ import java.io.FileNotFoundException;
 /**
  * 说明：
  * 使用Properties加载配置文件，解析指定的key值返回
- * Created by quqing on 15/11/7.
  */
 public class ParseProperties {
     private File file;

@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
- * Created by quqing on 15/12/10.
+ * 
  */
 public class testExamlpe extends AutoTestBase {
     public page_baidu elm;

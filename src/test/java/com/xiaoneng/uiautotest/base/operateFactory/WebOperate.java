@@ -15,7 +15,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by quqing on 15/9/24.
+ * web操作封装类
  */
 public class WebOperate {
     int maxWaitfor = 30;

@@ -2,6 +2,10 @@ package com.xiaoneng.uiautotest.util;
 
 import org.testng.Assert;
 
+/**
+ * @author dell
+ *	断言
+ */
 public class Assertion {
 
     public static boolean flag = true;

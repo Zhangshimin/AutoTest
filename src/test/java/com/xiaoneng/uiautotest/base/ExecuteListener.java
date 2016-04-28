@@ -8,9 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-/**
- * Created by yuyilong on 15/9/24.
- */
+
 public class ExecuteListener implements WebDriverEventListener {
     private By lastFindBy;
     private String originalValue;

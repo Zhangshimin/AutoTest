@@ -1,0 +1,187 @@
+2016-04-26 17:43:14 appium_log : [36minfo[39m: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2016-04-26 17:43:14 appium_log : [36minfo[39m: Appium REST http interface listener started on 0.0.0.0:5743
+2016-04-26 17:43:14 appium_log : [36minfo[39m: [debug] Non-default server args: {"udid":"9TGA6TGIBEPJRS4T","port":5743,"bootstrapPort":5745,"sessionOverride":true}
+2016-04-26 17:43:14 appium_log : [36minfo[39m: Console LogLevel: debug
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"app":"C:\\Users\\dell\\Desktop\\AutoTest\\apps\\XiaonengChatDemo3.apk","appPackage":"com.example.androidsdk","appActivity":"com.example.androidsdk.MainActivity","noSign":true,"appiumVersion":"1.0","platformVersion":"4.4.2","unicodeKeyboard":"True","platformName":"Android","udid":"9TGA6TGIBEPJRS4T","deviceName":"","resetKeyboard":"True"}}[39m
+2016-04-26 17:43:43 appium_log : [36minfo[39m: Client User-Agent string: Apache-HttpClient/4.3.3 (java 1.5)
+2016-04-26 17:43:43 appium_log : [33mwarn[39m: Converting cap unicodeKeyboard from string to boolean. This might cause unexpected behavior.
+2016-04-26 17:43:43 appium_log : [33mwarn[39m: Converting cap resetKeyboard from string to boolean. This might cause unexpected behavior.
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : appiumVersion
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Using local app from desired caps: C:\Users\dell\Desktop\AutoTest\apps\XiaonengChatDemo3.apk
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Creating new appium session 7ed5f012-daf8-4097-81c8-121332c8fec5
+2016-04-26 17:43:43 appium_log : [36minfo[39m: Starting android appium
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Getting Java version
+2016-04-26 17:43:43 appium_log : [36minfo[39m: Java version is: 1.8.0_91
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Checking whether adb is present
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Using adb from D:\android-sdk-windows\platform-tools\adb.exe
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Using fast reset? true
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Preparing device for session
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Checking whether app is actually present
+2016-04-26 17:43:43 appium_log : [36minfo[39m: Retrieving device
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Trying to find a connected android device
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Getting connected devices...
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe devices
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] 3 device(s) connected
+2016-04-26 17:43:43 appium_log : [36minfo[39m: Found device 9TGA6TGIBEPJRS4T
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Setting device id to 9TGA6TGIBEPJRS4T
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T wait-for-device
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "echo 'ready'"
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Starting logcat capture
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Getting device API level
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "getprop ro.build.version.sdk"
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Device is at API Level 19
+2016-04-26 17:43:43 appium_log : [36minfo[39m: Device API level is: 19
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Extracting strings for language: default
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "getprop persist.sys.language"
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] Current device persist.sys.language: zh
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] java -jar "C:\Appium\node_modules\appium\node_modules\appium-adb\jars\appium_apk_tools.jar" "stringsFromApk" "C:\Users\dell\Desktop\AutoTest\apps\XiaonengChatDemo3.apk" "C:\Users\dell\AppData\Local\Temp\com.example.androidsdk" zh
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] No strings.xml for language 'zh', getting default strings.xml
+2016-04-26 17:43:43 appium_log : [36minfo[39m: [debug] java -jar "C:\Appium\node_modules\appium\node_modules\appium-adb\jars\appium_apk_tools.jar" "stringsFromApk" "C:\Users\dell\Desktop\AutoTest\apps\XiaonengChatDemo3.apk" "C:\Users\dell\AppData\Local\Temp\com.example.androidsdk"
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Reading strings from converted strings.json
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Setting language to default
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T push "C:\\Users\\dell\\AppData\\Local\\Temp\\com.example.androidsdk\\strings.json" /data/local/tmp
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Checking whether aapt is present
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Using aapt from D:\android-sdk-windows\build-tools\24.0.0-preview\aapt.exe
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Retrieving process from manifest.
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\build-tools\24.0.0-preview\aapt.exe dump xmltree C:\Users\dell\Desktop\AutoTest\apps\XiaonengChatDemo3.apk AndroidManifest.xml
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Set app process to: com.example.androidsdk
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] noSign capability set to true, skipping checking and signing of app
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] MD5 for app is 17ea8d08bd0b29ff3cbcae89c5385a29
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "ls /data/local/tmp/17ea8d08bd0b29ff3cbcae89c5385a29.apk"
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Getting install status for com.example.androidsdk
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Getting device API level
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "getprop ro.build.version.sdk"
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Device is at API Level 19
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "pm list packages -3 com.example.androidsdk"
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] App is not installed
+2016-04-26 17:43:44 appium_log : [36minfo[39m: Installing App
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "mkdir -p /data/local/tmp/"
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] Removing any old apks
+2016-04-26 17:43:44 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "ls /data/local/tmp/*.apk"
+2016-04-26 17:43:45 appium_log : [36minfo[39m: [debug] Found an apk we want to keep at /data/local/tmp/17ea8d08bd0b29ff3cbcae89c5385a29.apk
+2016-04-26 17:43:45 appium_log : [36minfo[39m: [debug] Couldn't find any apks to remove
+2016-04-26 17:43:45 appium_log : [36minfo[39m: [debug] Uninstalling com.example.androidsdk
+2016-04-26 17:43:45 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "am force-stop com.example.androidsdk"
+2016-04-26 17:43:45 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T uninstall com.example.androidsdk
+2016-04-26 17:43:46 appium_log : [36minfo[39m: [debug] App was not uninstalled, maybe it wasn't on device?
+2016-04-26 17:43:46 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "pm install -r /data/local/tmp/17ea8d08bd0b29ff3cbcae89c5385a29.apk"
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] Forwarding system:5745 to device:4724
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T forward tcp:5745 tcp:4724
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] Pushing appium bootstrap to device...
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T push "C:\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] Enabling Unicode keyboard support
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] Pushing unicode ime to device...
+2016-04-26 17:43:49 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T install "C:\Appium\node_modules\appium\build\unicode_ime_apk\UnicodeIME-debug.apk"
+2016-04-26 17:43:51 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "settings get secure default_input_method"
+2016-04-26 17:43:51 appium_log : [36minfo[39m: [debug] Unsetting IME 'com.sohu.inputmethod.sogou/.SogouIME'
+2016-04-26 17:43:51 appium_log : [36minfo[39m: [debug] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2016-04-26 17:43:51 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "ime enable io.appium.android.ime/.UnicodeIME"
+2016-04-26 17:43:52 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "ime set io.appium.android.ime/.UnicodeIME"
+2016-04-26 17:43:53 appium_log : [36minfo[39m: [debug] Pushing settings apk to device...
+2016-04-26 17:43:53 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T install "C:\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+2016-04-26 17:43:54 appium_log : [36minfo[39m: [debug] Pushing unlock helper app to device...
+2016-04-26 17:43:54 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T install "C:\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+2016-04-26 17:43:55 appium_log : [36minfo[39m: Starting App
+2016-04-26 17:43:55 appium_log : [36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
+2016-04-26 17:43:55 appium_log : [36minfo[39m: [debug] Getting all processes with 'uiautomator'
+2016-04-26 17:43:55 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "ps 'uiautomator'"
+2016-04-26 17:43:55 appium_log : [36minfo[39m: [debug] No matching processes found
+2016-04-26 17:43:55 appium_log : [36minfo[39m: [debug] Running bootstrap
+2016-04-26 17:43:55 appium_log : [36minfo[39m: [debug] spawning: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.example.androidsdk -e disableAndroidWatchers false
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] tcp port:4724[39m
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Waking up device if it's not alive
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] json loading complete.
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"value":true,"status":0}
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "dumpsys window"
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Screen already unlocked, continuing.
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"\/data\/local\/tmp","status":0}
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] dataDir set to: /data/local/tmp
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"value":false,"status":0}
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Getting device API level
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "getprop ro.build.version.sdk"
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] Device is at API Level 19
+2016-04-26 17:43:56 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.example.androidsdk/com.example.androidsdk.MainActivity"
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Waiting for pkg "com.example.androidsdk" and activity "com.example.androidsdk.MainActivity" to be focused
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Getting focused package and activity
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "dumpsys window windows"
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "getprop ro.build.version.release"
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Device is at release version 4.4.2
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Device launched! Ready for commands
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Setting command timeout to the default of 60 secs
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Appium session started with sessionId 7ed5f012-daf8-4097-81c8-121332c8fec5
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [37m<-- POST /wd/hub/session [39m[36m303[39m[90m 14357.899 ms - 74[39m [90m[39m
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [37m-->[39m [37mGET[39m [37m/wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5[39m [90m{}[39m
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.2","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\dell\\Desktop\\AutoTest\\apps\\XiaonengChatDemo3.apk","appPackage":"com.example.androidsdk","appActivity":"com.example.androidsdk.MainActivity","noSign":true,"appiumVersion":"1.0","platformVersion":"4.4.2","unicodeKeyboard":true,"platformName":"Android","udid":"9TGA6TGIBEPJRS4T","deviceName":"","resetKeyboard":true},"app":"C:\\Users\\dell\\Desktop\\AutoTest\\apps\\XiaonengChatDemo3.apk","appPackage":"com.example.androidsdk","appActivity":"com.example.androidsdk.MainActivity","noSign":true,"appiumVersion":"1.0","unicodeKeyboard":true,"platformName":"Android","udid":"9TGA6TGIBEPJRS4T","deviceName":"9TGA6TGIBEPJRS4T","resetKeyboard":true},"sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [37m<-- GET /wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5 [39m[32m200[39m[90m 3.052 ms - 989[39m [90m{"status":0,"value":{"platform":"LINUX","browserName":"Android","platformVersion":"4.4.2","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\dell\\Desktop\\AutoTest\\apps\\XiaonengChatDemo3.apk","appPackage":"com.example.androidsdk","appActivity":"com.example.androidsdk.MainActivity","noSign":true,"appiumVersion":"1.0","platformVersion":"4.4.2","unicodeKeyboard":true,"platformName":"Android","udid":"9TGA6TGIBEPJRS4T","deviceName":"","resetKeyboard":true},"app":"C:\\Users\\dell\\Desktop\\AutoTest\\apps\\XiaonengChatDemo3.apk","appPackage":"com.example.androidsdk","appActivity":"com.example.androidsdk.MainActivity","noSign":true,"appiumVersion":"1.0","unicodeKeyboard":true,"platformName":"Android","udid":"9TGA6TGIBEPJRS4T","deviceName":"9TGA6TGIBEPJRS4T","resetKeyboard":true},"sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}[39m
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5/timeouts/implicit_wait[39m [90m{"ms":30000}[39m
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Set Android implicit wait to 30000ms
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [37m<-- POST /wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5/timeouts/implicit_wait [39m[32m200[39m[90m 1.710 ms - 76[39m [90m{"status":0,"value":null,"sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}[39m
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [37m-->[39m [37mGET[39m [37m/wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5/screenshot[39m [90m{}[39m
+2016-04-26 17:43:57 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "/system/bin/rm /data/local/tmp/screenshot.png; /system/bin/screencap -p /data/local/tmp/screenshot.png "
+2016-04-26 17:43:58 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T pull /data/local/tmp/screenshot.png "C:\\Users\\dell\\AppData\\Local\\Temp\\appium116326-56084-cs06gm.png"
+2016-04-26 17:43:58 appium_log : [36minfo[39m: [debug] Responding to client with success: {"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3Xd0VHX+//HX56bSAqEJCEKyggq6lqWjIM1VdlewsSIICgIKUhQCCIu6FmTRFQVZBcTFBgrS1rZfpQcEJPzUIK4FFOkkhCotZT6/P6aQQMjMJUFm8Pk6h/Pgzsy98547NzOfec+9d4wkK0IIIYQQQkhIcc51AYQQQgghhERSGEATQgghhBDiIgygCSGEEEIIcREG0IQQQgghhLiIY4yRJCEiIiIiYgiKs3AQQgghhBAScuhAIyIiIiK6UXSgCSGEEEIICTl0oBERERER3SjJBkBERERExCL1daCtEBER8fwzKipKt9zSSX/+859dzffnP/9ZnTp1VFRUVFg8DsRwMkrS4+EwkkdERHRrbGycBg4coAoVErVx4w/nvJ5ws379Bpo4cYI6duyk66+/XuXLV9DKlSuDzpeSMkz9+/dTq1bXq3Xr67VhwzfKzMw8548HMVw0xhhrrXdEHa5GRUUpLy/vnNeBiIjhZYUKFfTpp59Kkt566y298MIL56yehIQE9ejRQy1atFD16tVVunRpHTt2TDt27NDKlSs1ffp0HTx4UMYY1apVS1OmTNGWLVvUt2/fs1LPX//6Vw0cOFBxcXE6cuSI3nvvPU2bNk1HjhwJOn/p0qV177336o477lCZMmWUk5Oj8ePHa9asWb/6eq1evbouv/xyJSUlqUaNGipdurTKlCmjw4cP6/Dhw9q+fbu2bNmi9PR07dq1Kyy2S/wN6B1Kn/uR/Om85pqrNW7cs/rxx01asOA/+vDDD8KiLkREPPfGxsbps89Wyp+lS5dpxIjhys3N+1Xr6NLlLvXufZ8SEsrLWo+MMb6K/LeTfvnlF02ePEWrVn2mqVNfVWJiBW3duk233NKpxOvp06eveve+T8Y4+n//b51GjhylrKw9MsbRDTe0V7t27VW37sWq...","sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}
+2016-04-26 17:43:58 appium_log : [36minfo[39m: [37m<-- GET /wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5/screenshot [39m[32m200[39m[90m 756.341 ms - 31950[39m [90m{"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAYAAABuzmU9AAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3Xd0VHX+//HX56bSAqEJCEKyggq6lqWjIM1VdlewsSIICgIKUhQCCIu6FmTRFQVZBcTFBgrS1rZfpQcEJPzUIK4FFOkkhCotZT6/P6aQQMjMJUFm8Pk6h/Pgzsy98547NzOfec+9d4wkK0IIIYQQQkhIcc51AYQQQgghhERSGEATQgghhBDiIgygCSGEEEIIcREG0IQQQgghhLiIY4yRJCEiIiIiYgiKs3AQQgghhBAScuhAIyIiIiK6UXSgCSGEEEIICTl0oBERERER3SjJBkBERERExCL1daCtEBER8fwzKipKt9zSSX/+859dzffnP/9ZnTp1VFRUVFg8DsRwMkrS4+EwkkdERHRrbGycBg4coAoVErVx4w/nvJ5ws379Bpo4cYI6duyk66+/XuXLV9DKlSuDzpeSMkz9+/dTq1bXq3Xr67VhwzfKzMw8548HMVw0xhhrrXdEHa5GRUUpLy/vnNeBiIjhZYUKFfTpp59Kkt566y298MIL56yehIQE9ejRQy1atFD16tVVunRpHTt2TDt27NDKlSs1ffp0HTx4UMYY1apVS1OmTNGWLVvUt2/fs1LPX//6Vw0cOFBxcXE6cuSI3nvvPU2bNk1HjhwJOn/p0qV177336o477lCZMmWUk5Oj8ePHa9asWb/6eq1evbouv/xyJSUlqUaNGipdurTKlCmjw4cP6/Dhw9q+fbu2bNmi9PR07dq1Kyy2S/wN6B1Kn/uR/Om85pqrNW7cs/rxx01asOA/+vDDD8KiLkREPPfGxsbps89Wyp+lS5dpxIjhys3N+1Xr6NLlLvXufZ8SEsrLWo+MMb6K/LeTfvnlF02ePEWrVn2mqVNfVWJiBW3duk233NKpxOvp06eveve+T8Y4+n//b51GjhylrKw9MsbRDTe0V7t27VW37sWq...","sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}[39m
+2016-04-26 17:43:58 appium_log : [36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5/appium/device/remove_app[39m [90m{"bundleId":"com.example.androidsdk"}[39m
+2016-04-26 17:43:58 appium_log : [36minfo[39m: [debug] Removing app using cmd: adb -s 9TGA6TGIBEPJRS4T uninstall com.example.androidsdk
+2016-04-26 17:43:59 appium_log : [36minfo[39m: [debug] Responding to client with success: {"status":0,"value":"Successfully un-installed [com.example.androidsdk] from device with id [9TGA6TGIBEPJRS4T]","sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}
+2016-04-26 17:43:59 appium_log : [36minfo[39m: [37m<-- POST /wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5/appium/device/remove_app [39m[32m200[39m[90m 1390.107 ms - 163[39m [90m{"status":0,"value":"Successfully un-installed [com.example.androidsdk] from device with id [9TGA6TGIBEPJRS4T]","sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}[39m
+2016-04-26 17:43:59 appium_log : [36minfo[39m: [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5[39m [90m{}[39m
+2016-04-26 17:43:59 appium_log : [36minfo[39m: Shutting down appium session
+2016-04-26 17:43:59 appium_log : [36minfo[39m: [debug] Pressing the HOME button
+2016-04-26 17:43:59 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "input keyevent 3"
+2016-04-26 17:44:00 appium_log : [36minfo[39m: [debug] Resetting IME to 'com.sohu.inputmethod.sogou/.SogouIME'
+2016-04-26 17:44:00 appium_log : [36minfo[39m: [debug] executing cmd: D:\android-sdk-windows\platform-tools\adb.exe -s 9TGA6TGIBEPJRS4T shell "ime set com.sohu.inputmethod.sogou/.SogouIME"
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] Stopping logcat capture
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] Logcat terminated with code null, signal SIGTERM
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"shutdown"}
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type SHUTDOWN
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"value":"OK, shutting down","status":0}
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] [CDS]close[4724][39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] close [socket][/0.0.0.0:4724][39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [BOOTSTRAP] [debug] Closed client connection
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=.[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 0[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Test results for WatcherResultPrinter=.[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] Time: 5.477[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] OK (1 test)[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: -1[39m
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] UiAutomator shut down normally
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] Cleaning up android objects
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] Cleaning up appium session
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}
+2016-04-26 17:44:01 appium_log : [36minfo[39m: [37m<-- DELETE /wd/hub/session/7ed5f012-daf8-4097-81c8-121332c8fec5 [39m[32m200[39m[90m 1691.158 ms - 76[39m [90m{"status":0,"value":null,"sessionId":"7ed5f012-daf8-4097-81c8-121332c8fec5"}[39m

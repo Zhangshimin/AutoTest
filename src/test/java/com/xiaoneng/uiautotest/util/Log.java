@@ -5,6 +5,10 @@ import org.testng.Reporter;
 
 import java.io.File;
 
+/**
+ * @author dell
+ *	日志工具
+ */
 public class Log {
     private static Logger logger;
 
@@ -22,7 +26,7 @@ public class Log {
      */
     public static void logInfo(Object message) {
         logger.info("[INFO] " + message);
-        Reporter.log(new Tools().getSimpleDateFormat() + " : " + "[INFO] " + message);
+        Reporter.log(Tools.getSimpleDateFormat() + " : " + "[INFO] " + message);
     }
 
     /**
@@ -32,7 +36,7 @@ public class Log {
      */
     public static void logStep(Object message) {
         logger.info("[STEP] " + message);
-        Reporter.log(new Tools().getSimpleDateFormat() + " : " + "[STEP] " + message);
+        Reporter.log(Tools.getSimpleDateFormat() + " : " + "[STEP] " + message);
     }
 
     /**
@@ -42,7 +46,7 @@ public class Log {
      */
     public static void logFlow(Object message) {
         logger.info("[FLOW] " + message);
-        Reporter.log(new Tools().getSimpleDateFormat() + " : " + "[FLOW] " + message);
+        Reporter.log(Tools.getSimpleDateFormat() + " : " + "[FLOW] " + message);
     }
 
     /**
@@ -52,7 +56,7 @@ public class Log {
      */
     public static void logError(Object message) {
         logger.error("[ERROR]   " + message);
-        Reporter.log(new Tools().getSimpleDateFormat() + " : " + "[ERROR]   " + message);
+        Reporter.log(Tools.getSimpleDateFormat() + " : " + "[ERROR]   " + message);
     }
 
     /**
@@ -62,6 +66,6 @@ public class Log {
      */
     public static void logWarn(Object message) {
         logger.warn("[WARN] " + message);
-        Reporter.log(new Tools().getSimpleDateFormat() + " : " + "[WARN] " + message);
+        Reporter.log(Tools.getSimpleDateFormat() + " : " + "[WARN] " + message);
     }
 }

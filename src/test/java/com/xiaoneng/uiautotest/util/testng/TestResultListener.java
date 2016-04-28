@@ -11,6 +11,10 @@ import org.testng.TestListenerAdapter;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+/**
+ * @author dell
+ *	监听测试结果类
+ */
 public class TestResultListener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult tr) {

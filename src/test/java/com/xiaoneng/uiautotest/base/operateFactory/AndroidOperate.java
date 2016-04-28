@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 /**
- * Created by yuyilong on 15/9/22.
+ * android操作类
  */
 public class AndroidOperate extends AppOperate {
 
@@ -78,13 +78,13 @@ public class AndroidOperate extends AppOperate {
     @Override
     public void backToHomePage(String[] contents) {
         int times = 0;
-        while (!waitForText(5, contents)) {
+        while (!waitForText(10, contents)) {
             if (times >= 30) {
                 Log.logInfo("尝试多次未能返回到首页,终止操作!");
                 break;
             }
             Log.logInfo("点击返回按钮");
-            driver.pressKeyCode(AndroidKeyCode.BACK);
+//            driver.pressKeyCode(AndroidKeyCode.BACK);
             sendKeyEvent(AndroidKeyCode.BACK, "点击返回按钮");
             times++;
         }
