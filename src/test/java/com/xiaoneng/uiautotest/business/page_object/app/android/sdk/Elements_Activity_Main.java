@@ -20,7 +20,7 @@ public class Elements_Activity_Main extends PageObjectBase {
     /**
      * 首页－h5入口
      */
-    @AndroidFindBy(name = "h5_sdk入口")
+    @AndroidFindBy(name = "h5_sd333k入口")
     @iOSFindBy(xpath = "xxxx")
     public WebElement h5_lancher;
     /**

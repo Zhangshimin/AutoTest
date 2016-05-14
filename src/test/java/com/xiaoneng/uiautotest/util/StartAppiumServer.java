@@ -53,6 +53,7 @@ public class StartAppiumServer extends Thread {
 //        Log.logInfo("start appium >> appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
          if (Tools.isWindows()) {
         	 Tools.cmdInvoke("appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
+        	 Log.logInfo("start appium >> appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
          } else {
         	 Log.logInfo("start appium >> appium -p " + port + " -bp " + bPort + " --session-override" + " -U " + udid);
          }

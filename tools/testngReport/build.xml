@@ -1,24 +1,27 @@
 <project name="UIAutoTest" basedir=".">
-    <property name="lib.dir" value="../../lib"/>
-    <property name="in" value="${in}" />
-    <property name="out" value="${out}" />    
-    <property name="expression" value="${expression}" />
+
 
 
     <path id="test.classpath">
          <!-- adding the saxon jar to your classpath -->
-        <fileset dir="${lib.dir}" includes="saxon-8.7.jar"/>
+        <fileset dir="../../lib" includes="saxon-8.7.jar"/>
     </path>
 
     <target name="transform">
-        <!-- <xslt in="../../output/testngReports/testng-results.xml" style="testng-results.xsl"
-              out="../../output/testngReports/index_xslt.html"> -->
-        <xslt in="${in}" style="testng-results.xsl"
-              out="${out}">
+        <xslt in="../../test-output/testng-results.xml" style="testng-results.xsl"
+              out="D:/测试报告/index_xslt.html">
              <!-- you need to specify the directory here again -->
             <!-- <param name="testNgXslt.outputDir" expression="/Users/apple/.jenkins/workspace/UIAutoTest/output/testngReports/"/> -->
-            <param name="testNgXslt.outputDir" expression="${expression}"/>
+            <param name="testNgXslt.outputDir" expression="D:/测试报告/"/>
             <classpath refid="test.classpath"/>
         </xslt>
     </target>
+    <target name="run_tests">      
+      <testng classpathref="classpath.main"                  
+              failureproperty="test.failed">              
+          <!--此目录下的所有TestNG的XML文件，使用*号表示此目录下所有 -->  
+          <xmlfileset dir="../../testsuit">  
+                <include name="*.xml"/>  
+          </xmlfileset>                          
+      </testng>
 </project>

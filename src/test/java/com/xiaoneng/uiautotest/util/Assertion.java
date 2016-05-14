@@ -1,5 +1,8 @@
 package com.xiaoneng.uiautotest.util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.testng.Assert;
 
 /**
@@ -9,7 +12,7 @@ import org.testng.Assert;
 public class Assertion {
 
     public static boolean flag = true;
-
+    public static List<Error> errors = new ArrayList<Error>();
     /**
      * 比较两个对象是否一致。
      *
@@ -20,6 +23,7 @@ public class Assertion {
         try {
             Assert.assertEquals(actual, expected);
         } catch (Error e) {
+        	errors.add(e);
             flag = false;
         }
     }
@@ -35,6 +39,8 @@ public class Assertion {
         try {
             Assert.assertEquals(actual, expected, message);
         } catch (Error e) {
+        	errors.add(e);
+        	Log.logError(message);
             flag = false;
         }
     }

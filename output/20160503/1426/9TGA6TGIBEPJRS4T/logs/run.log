@@ -1,0 +1,92 @@
+2016-05-04 16:37:44 dev_log : [INFO] start appium >> appium -p 5743 -bp 5745 --session-override -U 9TGA6TGIBEPJRS4T
+2016-05-04 16:37:44 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-05-04 16:38:12 dev_log : [INFO] example Start
+2016-05-04 16:38:12 dev_log : [INFO] example Skipped
+2016-05-04 16:38:12 dev_log : [INFO] example takeScreenshot Failure:
+2016-05-04 16:38:12 dev_log : [INFO] exampleWeb Start
+2016-05-04 16:38:12 dev_log : [INFO] exampleWeb Skipped
+2016-05-04 16:38:12 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-05-04 16:38:13 dev_log : [INFO] skipTest : example
+2016-05-04 16:38:13 dev_log : [INFO] skipTest : exampleWeb
+2016-05-04 16:39:16 dev_log : [INFO] example Start
+2016-05-04 16:39:16 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-05-04 16:39:16 dev_log : [STEP] [点击sdk原生入口] 
+2016-05-04 16:39:18 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-05-04 16:39:19 dev_log : [INFO] example Success
+2016-05-04 16:39:19 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:19 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:32 dev_log : [INFO] 点击返回按钮
+2016-05-04 16:39:32 dev_log : [STEP] [点击返回按钮] 
+2016-05-04 16:39:32 dev_log : [INFO] [点击返回按钮] 
+2016-05-04 16:39:32 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:32 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:35 dev_log : [INFO] exampleWeb Start
+2016-05-04 16:39:35 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-05-04 16:39:35 dev_log : [STEP] [点击h5原生入口] 
+2016-05-04 16:39:35 dev_log : [INFO] [点击 -> name: h5_sdk入口]
+2016-05-04 16:39:36 dev_log : [ERROR]   没有到h5页面
+2016-05-04 16:39:36 dev_log : [STEP] [点击确定跳转到资讯页面] 
+2016-05-04 16:39:37 dev_log : [INFO] [点击 -> name: 确认]
+2016-05-04 16:39:39 dev_log : [STEP] [点击打开聊窗] 
+2016-05-04 16:39:39 dev_log : [INFO] [点击 -> id: openchat]
+2016-05-04 16:39:41 dev_log : [ERROR]   失败
+2016-05-04 16:39:41 dev_log : [INFO] exampleWeb Success
+2016-05-04 16:39:41 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:41 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:53 dev_log : [INFO] 点击返回按钮
+2016-05-04 16:39:53 dev_log : [STEP] [点击返回按钮] 
+2016-05-04 16:39:53 dev_log : [INFO] [点击返回按钮] 
+2016-05-04 16:39:53 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:39:53 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:40:06 dev_log : [INFO] 点击返回按钮
+2016-05-04 16:40:06 dev_log : [STEP] [点击返回按钮] 
+2016-05-04 16:40:06 dev_log : [INFO] [点击返回按钮] 
+2016-05-04 16:40:06 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:40:06 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:40:09 dev_log : [INFO] PassedTests : exampleWeb
+2016-05-04 16:40:09 dev_log : [INFO] PassedTests : example
+2016-05-04 16:44:07 dev_log : [INFO] start appium >> appium -p 5743 -bp 5745 --session-override -U 9TGA6TGIBEPJRS4T
+2016-05-04 16:44:07 dev_log : [INFO] run 9TGA6TGIBEPJRS4T Appium Server in port 5743......
+2016-05-04 16:44:35 dev_log : [INFO] example Start
+2016-05-04 16:44:35 dev_log : [INFO] example Skipped
+2016-05-04 16:44:35 dev_log : [INFO] example takeScreenshot Failure:
+2016-05-04 16:44:35 dev_log : [INFO] exampleWeb Start
+2016-05-04 16:44:35 dev_log : [INFO] exampleWeb Skipped
+2016-05-04 16:44:35 dev_log : [INFO] exampleWeb takeScreenshot Failure:
+2016-05-04 16:44:35 dev_log : [INFO] skipTest : example
+2016-05-04 16:44:35 dev_log : [INFO] skipTest : exampleWeb
+2016-05-04 16:45:33 dev_log : [INFO] example Start
+2016-05-04 16:45:33 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-05-04 16:45:33 dev_log : [STEP] [点击sdk原生入口] 
+2016-05-04 16:45:36 dev_log : [INFO] [点击 -> name: sdk源生入口]
+2016-05-04 16:45:38 dev_log : [INFO] example Success
+2016-05-04 16:45:38 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:45:38 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:45:50 dev_log : [INFO] 点击返回按钮
+2016-05-04 16:45:50 dev_log : [STEP] [点击返回按钮] 
+2016-05-04 16:45:50 dev_log : [INFO] [点击返回按钮] 
+2016-05-04 16:45:50 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:45:50 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:45:53 dev_log : [INFO] exampleWeb Start
+2016-05-04 16:45:53 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-05-04 16:45:53 dev_log : [STEP] [点击h5原生入口] 
+2016-05-04 16:45:59 dev_log : [INFO] exampleWeb Skipped
+2016-05-04 16:46:00 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:46:00 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:46:03 dev_log : [INFO] exampleWeb Start
+2016-05-04 16:46:03 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-05-04 16:46:03 dev_log : [STEP] [点击h5原生入口] 
+2016-05-04 16:46:09 dev_log : [INFO] exampleWeb Skipped
+2016-05-04 16:46:10 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:46:10 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:46:13 dev_log : [INFO] exampleWeb Start
+2016-05-04 16:46:13 dev_log : [FLOW] 登录－点击sdk原生入口
+2016-05-04 16:46:13 dev_log : [STEP] [点击h5原生入口] 
+2016-05-04 16:46:19 dev_log : [INFO] exampleWeb Failure
+2016-05-04 16:46:20 dev_log : [STEP] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:46:20 dev_log : [INFO] [Wait For Text : [欢迎来到移动商城]] 
+2016-05-04 16:46:23 dev_log : [INFO] PassedTests : example
+2016-05-04 16:46:23 dev_log : [INFO] skipTest : exampleWeb
+2016-05-04 16:46:23 dev_log : [INFO] skipTest : exampleWeb
+2016-05-04 16:46:23 dev_log : [INFO] FailedTest : exampleWeb
+2016-05-04 16:46:23 dev_log : [INFO] Remove repeat Fail Test : exampleWeb

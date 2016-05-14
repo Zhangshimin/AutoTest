@@ -40,6 +40,7 @@ public abstract class AppOperate {
 
     public abstract void scrollToDown(String TargetText);
 
+    
     /**
      * 模拟轻触操作。
      *
@@ -221,7 +222,7 @@ public abstract class AppOperate {
     public void click(final WebElement element, String LogText) {
         Log.logStep("[" + LogText + "] ");
         Log.logInfo("[点击 " + element.toString().substring(element.toString().indexOf("->")));
-        System.out.println(driver.toString());
+//        System.out.println(driver.toString());
         element.click();
     }
 

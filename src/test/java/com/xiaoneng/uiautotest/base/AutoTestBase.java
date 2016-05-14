@@ -346,6 +346,7 @@ public class AutoTestBase {
 		if (platformName.toLowerCase().contains("android")
 				|| platformName.toLowerCase().contains("ios")) {
 			((AppiumDriver) driver).context("NATIVE_APP");
+			Log.logInfo("成功进入到NATVE_APP");
 		}
 	}
 
@@ -353,6 +354,7 @@ public class AutoTestBase {
 		if (platformName.toLowerCase().contains("android")
 				|| platformName.toLowerCase().contains("ios")) {
 			((AppiumDriver) driver).context("WEBVIEW_com.example.androidsdk");
+			Log.logInfo("成功进入到APP里的WebView");
 		}
 
 	}

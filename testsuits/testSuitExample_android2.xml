@@ -28,7 +28,7 @@
 		value="5743" />
 	<parameter
 		name="timeout"
-		value="5" />
+		value="30" />
 	<parameter
 		name="udid"
 		value="9TGA6TGIBEPJRS4T" />
@@ -41,10 +41,10 @@
 		value="www.baidu.com" />
 
 	<!--enabled="true"让测试生效，可根据情况开启或关闭某些测试 preserve-order="true" -->
-	<test name="APP_Tests">
+	<test name="APP_Tests2">
 		<groups>
 			<run>
-				<include name="smoking" />
+				<include name="p0" />
 			</run>
 		</groups>
 		<classes>

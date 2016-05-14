@@ -1,0 +1,44 @@
+@echo off
+set LIB=D:\项目文件\JAVA\UIAutoTest2
+
+set CLASSPATH=%LIB%\selenium-server-standalone-2.25.0.jar;%LIB%\autoui.jar
+
+java org.testng.TestNG %LIB%\testng.xml
+
+NewSQL是指这样一类新式的关系型数据库管理系统，针对OLTP（读-写）工作负载，追求提供和NoSQL系统相同的扩展性能，且仍然保持ACID和SQL等特性（scalable and ACID and (relational and/or sql -access)）
+
+CREATE TABLE表名(属性名 数据类型 [完整性约束条件],
+属性名 数据类型   [完整性约束条件],
+属性名 数据表格   [完整性约束条件]
+);
+
+约束条件
+说明
+PRIMARY KEY
+FOREIGN KEY
+NOT NULL
+标识该属性为该表的主键，可以唯一的标识对应的记录
+
+标识该属性不能为空
+UNIQUE
+标识该属性的值是唯一的
+AUTO_INCREMENT
+DEFAULT
+标识该属性的值自动增加
+为该属性设置默认值
+创建图书类别表：t_bookType
+CREATE TABLE t_booktype(
+id INT PRIMARY KEYAUTO_INCREMENT,
+bookTypeName VARCHAR(20),
+bookTypeDesc VARCHAR(200)
+);
+创建图书表：t_book
+CREATE TABLE t_book(
+id INT PRIMARY KEYAUTO_INCREMENT,
+bookName VARCHAR(20),
+author VARCHAR(10),
+price DECIMAL(6,2),
+bookTypeId INT,
+CONSTRAINT `fk` FOREIGN KEY (`bookTypeId`) REFERENCES `t_bookType` (`id`)
+);
+

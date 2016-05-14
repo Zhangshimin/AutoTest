@@ -1,112 +1,56 @@
-2016-04-28 10:29:10 dev_log : [INFO] retrycount=0
-2016-04-28 10:29:10 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:29:10 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:29:10 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:29:10 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:29:10 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 10:31:24 dev_log : [INFO] retrycount=0
-2016-04-28 10:31:24 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:31:24 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:31:24 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:31:24 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:31:24 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 10:32:06 dev_log : [INFO] retrycount=0
-2016-04-28 10:32:06 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:32:06 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:32:06 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:32:06 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:32:06 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 10:33:57 dev_log : [INFO] retrycount=0
-2016-04-28 10:33:57 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:33:57 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:33:57 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:33:57 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:33:57 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 10:34:32 dev_log : [INFO] retrycount=0
-2016-04-28 10:34:32 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:34:32 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:34:32 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:34:32 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:34:32 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 10:36:37 dev_log : [INFO] retrycount=0
-2016-04-28 10:36:37 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:36:37 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:36:37 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:36:37 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:36:37 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 10:57:18 dev_log : [INFO] retrycount=0
-2016-04-28 10:57:18 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 10:57:18 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 10:57:18 dev_log : [INFO] 当前日期:20160427
-2016-04-28 10:57:18 dev_log : [INFO] 当前时间:1525
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 10:57:18 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
-2016-04-28 17:35:18 dev_log : [INFO] retrycount=2
-2016-04-28 17:35:18 dev_log : [INFO] sourceCodeDir=src/test
-2016-04-28 17:35:18 dev_log : [INFO] sourceCodeEncoding=UTF-8
-2016-04-28 17:35:18 dev_log : [INFO] 当前日期:20160427
-2016-04-28 17:35:18 dev_log : [INFO] 当前时间:1525
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.filePath = apps
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.platformName = Android
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.deviceName = 
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.port = 5743
-2016-04-28 17:35:18 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
+2016-05-04 16:37:42 dev_log : [INFO] retrycount=2
+2016-05-04 16:37:42 dev_log : [INFO] sourceCodeDir=src/test
+2016-05-04 16:37:42 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-04 16:37:42 dev_log : [INFO] 当前日期:20160503
+2016-05-04 16:37:42 dev_log : [INFO] 当前时间:1426
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.filePath = apps
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.platformName = Android
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.deviceName = 
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.port = 5743
+2016-05-04 16:37:42 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
+2016-05-04 16:38:28 dev_log : [INFO] retrycount=2
+2016-05-04 16:38:28 dev_log : [INFO] sourceCodeDir=src/test
+2016-05-04 16:38:28 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-04 16:38:28 dev_log : [INFO] 当前日期:20160503
+2016-05-04 16:38:28 dev_log : [INFO] 当前时间:1426
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.filePath = apps
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.platformName = Android
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.deviceName = 
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.port = 5743
+2016-05-04 16:38:28 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
+2016-05-04 16:44:05 dev_log : [INFO] retrycount=2
+2016-05-04 16:44:05 dev_log : [INFO] sourceCodeDir=src/test
+2016-05-04 16:44:05 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-04 16:44:05 dev_log : [INFO] 当前日期:20160503
+2016-05-04 16:44:05 dev_log : [INFO] 当前时间:1426
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.filePath = apps
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.platformName = Android
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.deviceName = 
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.port = 5743
+2016-05-04 16:44:05 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
+2016-05-04 16:44:42 dev_log : [INFO] retrycount=2
+2016-05-04 16:44:42 dev_log : [INFO] sourceCodeDir=src/test
+2016-05-04 16:44:42 dev_log : [INFO] sourceCodeEncoding=UTF-8
+2016-05-04 16:44:42 dev_log : [INFO] 当前日期:20160503
+2016-05-04 16:44:42 dev_log : [INFO] 当前时间:1426
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.filePath = apps
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.appName = XiaonengChatDemo3.apk
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.platformName = Android
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.platformVersion = 4.4.2
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.deviceName = 
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.appPackage = com.example.androidsdk
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.appActivity = com.example.androidsdk.MainActivity
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.port = 5743
+2016-05-04 16:44:42 dev_log : [INFO] MobileCapabilityType.udid = 9TGA6TGIBEPJRS4T
